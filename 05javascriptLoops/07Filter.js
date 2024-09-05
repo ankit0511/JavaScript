@@ -4,7 +4,7 @@ const arr = [1, 2, 3, 4, 5, 6]
 // filter always return a value 
 const newArr = arr.filter((items) => items < 5)
 
-console.log(newArr);
+console.log(newArr)
 
 
 // if we use scope the we have to use return keyword 
