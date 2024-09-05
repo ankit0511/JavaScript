@@ -3,7 +3,7 @@ function one(){
   let a = 10; 
  function two(){
     let b = 10;
-    console.log(a);
+    console.log(a)
     
  }
  two();
