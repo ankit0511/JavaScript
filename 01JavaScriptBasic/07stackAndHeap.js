@@ -12,7 +12,7 @@ console.log(newAge);
  newAge= 25
 
  console.log(newAge);
- console.log(age);
+ console.log(age)
 
 //  the optput will be 25 and 22 bcoz copies will provided 
 

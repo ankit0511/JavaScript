@@ -12,7 +12,6 @@ console.log(`my name is ${name} and my age is ${age}`);
 const getName = new String("AnkitPatle");
 
 
-
 // also we have lots of methods in string such as 
 // Define a sample string
 const sampleString = "Hello, JavaScript!";

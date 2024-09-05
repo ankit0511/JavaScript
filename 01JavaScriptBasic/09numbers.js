@@ -11,7 +11,7 @@ console.log(age * 2);  // Multiplication: 44
 console.log(age / 2);  // Division: 11
 console.log(age % 5);  // Modulus: 2
 console.log(age ** 2); // Exponentiation: 484
-
+ 
 // Comparison operations
 console.log(age == newage);  // Loose equality: true
 console.log(age === newage); // Strict equality: false (number vs object)

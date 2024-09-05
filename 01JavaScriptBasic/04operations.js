@@ -8,7 +8,7 @@ let lastname = "Patle"
 
 let fullName = name + lastname;
 
-console.log(fullName);
+console.log(fullName)
 
 
 // this line will give us a output of 31

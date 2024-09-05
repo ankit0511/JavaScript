@@ -3,7 +3,7 @@ console.log(typeof age );
 
 let myage ="22"
 console.log(typeof myage );
-
+ 
 let valueInNumber = Number(myage)
 console.log(typeof valueInNumber );
 

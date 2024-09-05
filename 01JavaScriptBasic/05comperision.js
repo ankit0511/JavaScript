@@ -11,7 +11,7 @@ console.log(null >=0);
 
 //  strice check 
 //  this will also check values and datatypes 
-console.log("2"===2);
+console.log("2"===2)
 // this will give us false 
 console.log(2===2);
 // this will give us true 

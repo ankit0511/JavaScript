@@ -6,7 +6,7 @@ console.log(currdate);
 console.log(currdate.toString());
 
 // then it will give us date in indian standers time 
-const date = new Date();
+const date = new Date()
 
 // Date toString methods
 console.log(date.toString());        // Converts the Date to a string: "Tue Sep 03 2024 14:52:00 GMT+0000 (Coordinated Universal Time)"
