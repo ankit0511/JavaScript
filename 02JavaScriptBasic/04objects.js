@@ -20,4 +20,4 @@ const obj3 = Object.assign(Obj1,Obj2)
 // here also we are going to use Object Spreading 
 
 const obj4 = {...Obj1,...Obj2}
-console.log(obj4);
+console.log(obj4)

@@ -10,7 +10,7 @@ console.log(arr1);
 //  now we will use concate 
 
 let arr3 = arr1.concat(arr2)
-console.log(arr3);
+console.log(arr3)
 //  this will combine all the array in another different array 
 
 // we can also use spread so er can 

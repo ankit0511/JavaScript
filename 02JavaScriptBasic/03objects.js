@@ -10,7 +10,7 @@ const User = {
 
 // we can access object in two ways 
 console.log(User.age);
-console.log(User["age"]);
+console.log(User["age"])
 
 // if we want to access symbol 
 

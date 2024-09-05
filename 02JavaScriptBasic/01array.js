@@ -11,7 +11,7 @@ const array = [1,2,3,4,5]
 
 
 // Adding different types of elements with different data types
-array.push("string");  // Adds a string to the end
+array.push("string")  // Adds a string to the end
 array.push({ key: "value" });  // Adds an object to the end
 array.push(true);  // Adds a boolean to the end
 array.push([6, 7, 8]);  // Adds an array to the end
