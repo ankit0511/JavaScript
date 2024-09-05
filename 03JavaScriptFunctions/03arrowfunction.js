@@ -10,10 +10,10 @@ const user = {
         
     }
 }
-user.welcomeMsg();
+user.welcomeMsg()
 
 // this will give us an empty object 
-console.log(this);
+console.log(this)
 
 // this will only work in objects not in functions 
 

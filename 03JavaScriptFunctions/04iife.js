@@ -9,7 +9,7 @@
 
 
 ( ()=>{
-    console.log("hii from arrow ");
+    console.log("hii from arrow ")
     
 })();
 

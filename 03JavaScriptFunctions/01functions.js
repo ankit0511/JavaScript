@@ -1,7 +1,7 @@
 // wrapping up the code 
 
 function sayMyName(){
-    console.log("Ankit");
+    console.log("Ankit")
     
 }
 // this is the referece of the function
