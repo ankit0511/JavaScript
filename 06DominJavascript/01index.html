@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dom Learning</title>
+    <title>DOM Manipulation Example</title>
 </head>
-<style>
-.bg{
-    background-color: aqua;
-}
-
-</style>
 <body>
+    <h1 id="heading">Original Heading</h1>
+    <p class="description">This is a paragraph using innerText.</p>
+    <p class="description">This is another paragraph using textContent.</p>
 
-    <div class="bg">
+    <button id="change-content">Change Content</button>
 
-        <h1 class="heading"> Dom Learning</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+    <div class="container">
+        <p id="inner-html">This is <strong>innerHTML</strong>.</p>
+        <p id="inner-text">This is innerText.</p>
+        <p id="text-content">This is textContent.</p>
     </div>
-    
+
+    <script>
+        // Using getElementById to change innerHTML
+const heading = document.getElementById("heading");
+heading.innerHTML = "Modified Heading using innerHTML";
+
+// Using getElementsByClassName to change innerText
+const descriptions = document.getElementsByClassName("description");
+descriptions[0].innerText = "Changed paragraph using innerText!";
+descriptions[1].textContent = "Changed paragraph using textContent!";
+
+// Using querySelector to modify content
+const innerHTMLPara = document.querySelector("#inner-html");
+innerHTMLPara.innerHTML = "Updated <strong>innerHTML</strong> content!";
+
+const innerTextPara = document.querySelector("#inner-text");
+innerTextPara.innerText = "Updated innerText content!";
+
+const textContentPara = document.querySelector("#text-content");
+textContentPara.textContent = "Updated textContent content!";
+
+// Event Listener to dynamically change content on button click
+document.getElementById("change-content").addEventListener("click", function() {
+    heading.innerHTML = "Heading Changed via Button";
+    innerHTMLPara.innerHTML = "InnerHTML changed dynamically!";
+    innerTextPara.innerText = "InnerText changed dynamically!";
+    textContentPara.textContent = "TextContent changed dynamically!";
+});
+
+    </script>
 </body>
 
-<script>
-
-    document.getElementById
-</script>
 </html>
