@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+        <ul class="tags">
+            <li> JavaScript </li>
+        </ul>
+    
+</head>
+<body>
+    <script>
+const li = document.createElement('li');
+li.innerHTML ="python"
+document.querySelector(".tags").appendChild(li);
+
+
+function addList(language){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(language))
+    document.querySelector('.tags').appendChild(li);
+}
+addList("drupal")
+
+// edit
+
+const secondElem = document.querySelector("li:nth-child(2)")
+secondElem.innerHTML="ankit"
+
+
+// remove 
+
+const removeElem = document.querySelector("li:nth-child(2)")
+removeElem.remove();
+</script>
+</body>
+</html>
